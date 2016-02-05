@@ -26,9 +26,9 @@ function slugify(path, remote) {
 function main(argv) {
 	commander
 		.version(pkg.version)
-		.usage('[options] [path]')
-		.option('-f, --fail', 'fail if no slug can be determined from [path]', false)
-		.option('-r, --remote <remote>', 'git <remote> of project in [path] to get the slug for');
+		.usage('[options] [path="."]')
+		.option('-f, --fail', 'fail if no slug can be determined from [path], default to false', false)
+		.option('-r, --remote <remote>', 'git <remote> of project in [path] to get the slug for, defaults to origin');
 
 	commander.parse(argv);
 
