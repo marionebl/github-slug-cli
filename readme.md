@@ -31,9 +31,9 @@ marionebl/github-slug-cli
 
 # Fails violently
 ❯ github-slug -f ../
-Error: no gitconfig to be found at /Users/marneb/Projekte/labs
-    at /Users/marneb/Projekte/labs/github-slug-cli/node_modules/gitconfiglocal/index.js:8:27
-    at /Users/marneb/Projekte/labs/github-slug-cli/node_modules/gitconfiglocal/index.js:41:48
+Error: no gitconfig to be found at ~/labs
+    at ~/labs/github-slug-cli/node_modules/gitconfiglocal/index.js:8:27
+    at ~/labs/github-slug-cli/node_modules/gitconfiglocal/index.js:41:48
     at FSReqWrap.cb [as oncomplete] (fs.js:216:19)
 
 # Use an alternative origin
